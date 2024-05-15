@@ -1,6 +1,4 @@
-import time
-import os
-import sys
+import time, os, sys
 
 # non standard libraries
 import telepot
@@ -23,7 +21,7 @@ def msg_handler(msg):
 
 if __name__ == '__main__':
   # instantiate bot
-  TOKEN = open(os.path.join(sys.path[0], "token"), "r").read().strip()
+  TOKEN = open(os.path.join(sys.path[0], "token.txt"), "r").read().strip()
   bot = telepot.Bot(TOKEN)
   print(bot.getMe())
 
