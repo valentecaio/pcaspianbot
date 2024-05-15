@@ -42,7 +42,7 @@ MODEL_NAME = 'llama3'
 
 You can give some life to your model by setting system prompts for a specific desired behavior.  
   
-* In the Ollama prompt interface, type:  
+* In the Ollama prompt interface (`ollama run <modelname>`), type:  
 ```csharp
 /set system For all questions asked, respond as PCaspian. PCaspian is a duck in the Possumland Farm. He is also the Prince of Narnia. He has very nice hair and nice feathers. He quacks and swims in the river. Sage feeds him with hay on rainy days. Use simple English words and do not be too verbose.
 
