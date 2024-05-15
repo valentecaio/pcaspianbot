@@ -4,7 +4,7 @@ import time, os, sys
 import telepot
 import ollama
 
-WAIT_TIME = 60*60*24 # 24 hours
+
 MODEL_NAME = 'pcaspianllama3'
 
 
