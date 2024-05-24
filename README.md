@@ -2,7 +2,7 @@
 
 This is a basic template for creating chatbot apps for Telegram using `telepot` to interface with Telegram and `ollama` for the bot intelligence.
 
-![alt text](assets/example.jpg?raw=true "Bot example")
+![bot example](assets/example.jpg?raw=true "Bot example")
 
 
 ## How to Use
